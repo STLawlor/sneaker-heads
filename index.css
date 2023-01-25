@@ -25,3 +25,64 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+@font-face {
+    font-family: queenSides;
+    src: url(Fonts/queensides-font/Queensides-3z7Ey.ttf);
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/02/49/68/72/360_F_249687268_Yl4AswCdwBQS7NA6hczKq0pfnjQs02UP.jpg);
+    padding: 5%;
+    margin: 8px 100px;
+    text-align: center;
+    font-family: queenSides;
+}
+
+/* 
+    Logo 
+*/
+
+header {
+    background-color: aliceblue;
+    padding: 1.5rem;
+    border-radius: 99px;
+    width: 118px;
+    margin: 1vw 34vw 5vw;
+    color: black;
+
+}
+
+/* 
+    Main Content 
+*/
+
+.trainer-section {
+    margin: 8px 200px 60px;
+}
+
+.trainer-description {
+    background-color: rgba(240, 248, 255, 0.767);
+    font-size: larger;
+    font-weight: 800;
+    border: 1px solid; 
+    border-radius: 60px;
+    padding: 0.5rem;
+    min-width: 200px;
+    box-shadow: 5px 3px 50px #0b3d10;
+}
+
+.trainer-img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 8px 3px 50px #0b3d10;
+}
+
+#trainerDescription1 {
+    color: #45434b;
+    border-color: #45434b;
+}
+
+#trainerDescription2 {
+    border-color: #551e24;
+}
